@@ -1,0 +1,42 @@
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	font-size: 16px;
+	background-color:#f6fcff;
+}
+
+#container {
+	margin: 0 auto;
+	width: 322px;
+}
+
+td, th {
+	width: 60px;
+	height: 45px;
+}
+
+td {
+	background: #F06292;
+	color: #fff;
+}
+
+th {
+	color: #F06292;
+	font-size: 22px;
+}
+
+#reload_button {
+	height: 60px;
+	width: 100px;
+	display: inline-block;
+	padding: 1.2em 1em;
+	text-decoration: none;
+	background: #668ad8;
+	color: #FFF;
+	border-bottom: solid 4px #627295;
+}
+#reload_button:active {
+	-webkit-transform: translateY(4px);
+	transform: translateY(4px);
+	border-bottom: none;
+}
